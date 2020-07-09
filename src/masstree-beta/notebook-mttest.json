@@ -1,0 +1,120 @@
+{
+  "experiments": {
+    "x0": {
+      "git-revision": "15edde028e18d871eafc6388e3302164a56f4536",
+      "time": "Tue Sep 19 15:41:04 2017",
+      "machine": "wangdhdeMacBook-Pro.local",
+      "cores": 4,
+      "runs": ["x0\/rw1\/mb\/0"]
+    },
+    "x1": {
+      "git-revision": "15edde028e18d871eafc6388e3302164a56f4536",
+      "time": "Wed Sep 20 17:39:37 2017",
+      "machine": "wangdhdeMacBook-Pro.local",
+      "cores": 4,
+      "runs": ["x1\/rw1\/mb\/0"]
+    }
+  },
+  "data": {
+    "x0\/rw1\/mb\/0": [
+      {
+	"table": "mb",
+	"test": "rw1",
+	"trial": 0,
+	"thread": 0,
+	"puts": 8275430,
+	"puts_per_sec": 827287.435232,
+	"gets": 8275430,
+	"gets_per_sec": 746991.199037,
+	"ops": 16550860,
+	"ops_per_sec": 785091.558432
+      },
+      {
+	"table": "mb",
+	"test": "rw1",
+	"trial": 0,
+	"thread": 1,
+	"puts": 8250661,
+	"puts_per_sec": 824811.319816,
+	"gets": 8250661,
+	"gets_per_sec": 748520.943318,
+	"ops": 16501322,
+	"ops_per_sec": 784816.483631
+      },
+      {
+	"table": "mb",
+	"test": "rw1",
+	"trial": 0,
+	"thread": 2,
+	"puts": 8281028,
+	"puts_per_sec": 827850.219375,
+	"gets": 8281028,
+	"gets_per_sec": 748748.705238,
+	"ops": 16562056,
+	"ops_per_sec": 786315.111867
+      },
+      {
+	"table": "mb",
+	"test": "rw1",
+	"trial": 0,
+	"thread": 3,
+	"puts": 8270238,
+	"puts_per_sec": 827345.561627,
+	"gets": 8270238,
+	"gets_per_sec": 747720.828792,
+	"ops": 16540476,
+	"ops_per_sec": 785520.550499
+      }
+    ],
+    "x1\/rw1\/mb\/0": [
+      {
+	"table": "mb",
+	"test": "rw1",
+	"trial": 0,
+	"thread": 0,
+	"puts": 6870845,
+	"puts_per_sec": 687032.689631,
+	"gets": 6870845,
+	"gets_per_sec": 752339.675974,
+	"ops": 13741690,
+	"ops_per_sec": 718204.633425
+      },
+      {
+	"table": "mb",
+	"test": "rw1",
+	"trial": 0,
+	"thread": 1,
+	"puts": 7072175,
+	"puts_per_sec": 707112.266932,
+	"gets": 7072175,
+	"gets_per_sec": 756865.138686,
+	"ops": 14144350,
+	"ops_per_sec": 731143.283939
+      },
+      {
+	"table": "mb",
+	"test": "rw1",
+	"trial": 0,
+	"thread": 2,
+	"puts": 7024108,
+	"puts_per_sec": 702357.833934,
+	"gets": 7024108,
+	"gets_per_sec": 751726.621711,
+	"ops": 14048216,
+	"ops_per_sec": 726204.148164
+      },
+      {
+	"table": "mb",
+	"test": "rw1",
+	"trial": 0,
+	"thread": 3,
+	"puts": 7104280,
+	"puts_per_sec": 710372.651179,
+	"gets": 7104280,
+	"gets_per_sec": 742141.80549,
+	"ops": 14208560,
+	"ops_per_sec": 725909.803508
+      }
+    ]
+  }
+}
