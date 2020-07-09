@@ -31,7 +31,7 @@ make -j10
 
 sudo make install
 
-#compile protobuf
+# compile protobuf
 
 cd protobuf
 
@@ -49,7 +49,7 @@ sh config_brpc.sh --headers=/usr/local/include --libs=/usr/local/lib
 
 make -j10
 
-#How to build and run iTrans
+# How to build and run iTrans
 
 make -j10
 
